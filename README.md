@@ -1,6 +1,6 @@
 # Student Service Portal
 
-## Screenshots
+## screenshots
 
 ### Home Page
 ![Home](screenshots/home.png)
@@ -9,4 +9,4 @@
 ![Contact](screenshots/contact.png)
 
 ### Admin Page
-![Admin](screenshots/admin.png)
+![Login](screenshots/login.png)
