@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="style.css"><nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Login</a>
+<a href="admin.html">Admin</a>
+</nav>
+<div class="container"><h1>Admin</h1><div id="d"></div></div>
+<script>
+fetch('/getData').then(r=>r.json()).then(data=>{
+d.innerHTML=data.map(x=>`<p>${x.name}-${x.email}-${x.message}</p>`).join('');
+});
+</script>

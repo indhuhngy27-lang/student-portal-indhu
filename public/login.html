@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="style.css"><nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Login</a>
+<a href="admin.html">Admin</a>
+</nav>
+<div class="container">
+<h1>Login</h1>
+<input id="u"><input id="p" type="password">
+<button onclick="l()">Login</button>
+</div>
+<script>
+function l(){if(u.value=='admin'&&p.value=='1234')location='admin.html';else alert('Invalid')}
+</script>

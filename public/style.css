@@ -1,0 +1,7 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI'}
+body{background:linear-gradient(135deg,#667eea,#764ba2)}
+nav{display:flex;justify-content:center;gap:15px;background:rgba(0,0,0,0.7);padding:15px}
+nav a{color:white;text-decoration:none;font-weight:bold}
+.container{width:90%;max-width:800px;margin:40px auto;background:white;padding:25px;border-radius:15px}
+button{padding:10px;background:#667eea;color:white;border:none;border-radius:8px}
+input,textarea{width:100%;padding:10px;margin:10px 0}

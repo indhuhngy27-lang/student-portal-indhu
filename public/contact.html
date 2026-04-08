@@ -1,0 +1,24 @@
+<link rel="stylesheet" href="style.css"><nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="contact.html">Contact</a>
+<a href="login.html">Login</a>
+<a href="admin.html">Admin</a>
+</nav>
+<div class="container">
+<h1>Contact</h1>
+<form id="f">
+<input id="name" placeholder="Name">
+<input id="email" placeholder="Email">
+<textarea id="msg"></textarea>
+<button>Submit</button>
+</form>
+</div>
+<script>
+f.onsubmit=async(e)=>{
+e.preventDefault();
+await fetch('/submit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:name.value,email:email.value,message:msg.value})});
+alert("Saved");
+}
+</script>
